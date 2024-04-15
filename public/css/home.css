@@ -1,0 +1,59 @@
+.home-img img{
+    width: 60%;
+}
+/** 食料品 **/
+.home-img img.food{
+    padding: 21px 0 0 0;
+}
+.home-img img.food:hover{
+    opacity: 0.3;
+}
+
+/** 衣類 **/
+.home-img img.clothing{
+    width: 160px;
+    padding-top: 40px;
+}
+.home-img img.clothing:hover{
+    opacity: 0.3;
+}
+
+/** 衛生用品 **/
+.home-img img.hygiene{
+    padding: 21px 0 0 0;
+}
+.home-img img.hygiene:hover{
+    opacity: 0.3;
+}
+
+/** 医療品 **/
+.home-img img.medical{
+    padding-top: 25px;
+}
+.home-img img.medical:hover{
+    opacity: 0.3;
+}
+
+/** 情報機器 **/
+.home-img img.radio{
+    width: 180px;
+    padding-top: 25px;
+}
+.home-img img.radio:hover{
+    opacity: 0.3;
+}
+
+/** その他 **/
+.home-img img.others{
+    padding-top: 35px;
+    width: 250px;
+}
+.home-img img.others:hover{
+    opacity: 0.3;
+}
+/** タイトル **/
+.title {
+    width: 100%;
+    text-align:  center; 
+    border-bottom: 3px solid #ccc;
+}
