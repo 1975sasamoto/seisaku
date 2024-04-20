@@ -126,8 +126,7 @@ class ItemController extends Controller
         if($request) {
             session()->flash('message', '更新しました。');
         } 
-                // ページネーションを適用
-                $items = $query->paginate(10);
+
 
         //編集完了後のリダイレクト
         return redirect()->route('managements');
