@@ -40,10 +40,6 @@
                         @endif
                         <input type="text" class="form-control" id="name" name="name" value="{{$item->name}}"  maxlength="200" placeholder="商品名を記入してください" value="{{ old('name') }}">
                     </div>
-                    <div class="form-group">
-                    <label for="price">価格:</label>
-                    <input type="text" class="form-control" id="price" name="price" placeholder="価格を入力してください">
-                    </div>
                     <div><label>種別</label></div>
                     <div class="form-group">
                         <select class="form-control" id="exampleFormControlSelect1" name="type">
